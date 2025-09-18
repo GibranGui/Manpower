@@ -10,8 +10,8 @@ const dtRawData = `1	DIKI SAPUTRA	HANVAN XCMG 51	N	N	N	N	OFF	D	D	D	D	D	D	N	N	N	N
 4	VIKI LIANDI	HANVAN XCMG 55	N	OFF	D	D	D	D	D	D	N	N	N	N	N	N	N	OFF	D	D	D	D	D	D	D	N	N	N	N	N	N	OFF
 5	HERMINTO. R	DT HANVAN 98	N	N	N	N	N	OFF	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	I	D	D	D	N	N	N	N	N	OFF	D	D
 6	BINTARA PRIYANDI	DT HANVAN 98	D	D	D	D	D	N	N	N	N	N	N	OFF	D	D	D	D	D	N	N	N	N	N	OFF	D	D	D	D	D	N	N
-7	RIDHO ILLAFI SUKMA	DT HANVAN 99	D	D	D	D	N	N	N	N	N	N	OFF	D	D	D	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	I	D	D	D
-8	RUDI HARTONO	DT HANVAN 99	CR	CR	CR	CR	I	D	D	D	D	D	N	N	N	N	N	N	N	OFF	D	D	D	D	D	N	N	N	N	N	N	N
+7	RIDHO ILLAFI SUKMA	DT HANVAN 99(BREAKDOWN)	D	D	D	D	N	N	N	N	N	N	OFF	D	D	D	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	I	D	D	D
+8	RUDI HARTONO	DT HANVAN 99(BREAKDOWN)	CR	CR	CR	CR	I	D	D	D	D	D	N	N	N	N	N	N	N	OFF	D	D	D	D	D	N	N	N	N	N	N	N
 9	TOUPIT ASMAN	DT HANVAN 100	N	N	N	OFF	D	D	D	D	D	D	N	N	N	N	N	N	OFF	D	D	D	D	D	CR	CR	CR	CR	CR	CR	CR	CR
 10	ADIANTO	DT HANVAN 100	D	D	D	N	N	N	N	N	N	N	OFF	D	D	D	D	D	D	N	N	N	N	N	N	N	OFF	D	D	D	D	D
 11	TENGGO NOVRIAN	DT HANVAN 101	CR	CR	CR	CR	CR	CR	CR	CR	CR	I	D	D	D	D	D	N	N	N	N	N	N	N	OFF	D	D	D	D	D	N	N
@@ -40,8 +40,8 @@ const dtRawData = `1	DIKI SAPUTRA	HANVAN XCMG 51	N	N	N	N	OFF	D	D	D	D	D	D	N	N	N	N
 34	GUNAWAN MAHENDRA	DT HANVAN 194	N	N	N	OFF	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	I	D	D	D	D	D	N	N	N	N	N	OFF	D	D
 35	HERMAN SAPUTRA	DT HANVAN 195	OFF	D	D	D	D	D	D	D	N	N	N	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	I	D	N	N	N	N	N
 36	EGI APRILI MARTA	DT HANVAN 195	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	I	D	D	D	D	D	D	N	N	N	N	N	N	OFF	D	D	D	D	D
-37	FAREL ANANDA PARINDRA	DT HANVAN 196	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	I	N	N	N	N	N	N	OFF	D	D	D	D	D	D	D	N	N	N
-38	PERISTIAWAN	DT HANVAN 196	D	D	D	D	N	N	N	N	N	N	OFF	D	D	D	D	D	D	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	I
+37	FAREL ANANDA PARINDRA	DT HANVAN 196(BREAKDOWN)	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	I	N	N	N	N	N	N	OFF	D	D	D	D	D	D	D	N	N	N
+38	PERISTIAWAN	DT HANVAN 196(BREAKDOWN)	D	D	D	D	N	N	N	N	N	N	OFF	D	D	D	D	D	D	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	I
 39	SUGIHARTO	DT HANVAN 197	D	D	D	D	D	N	N	N	N	N	N	N	OFF	D	D	D	D	D	D	D	N	N	N	N	N	N	OFF	D	D	D
 40	JONI ARDILES	DT HANVAN 197	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	I	D	N	N	N	N	N	N	N	OFF	D	D	D	D	D	D	N	N	N
 41	YOPI ILHAMI	DT HANVAN 198	N	N	N	N	N	N	OFF	D	D	D	D	D	D	N	N	N	N	N	N	OFF	D	D	D	D	D	D	N	N	N	N
@@ -96,8 +96,8 @@ const dtRawData = `1	DIKI SAPUTRA	HANVAN XCMG 51	N	N	N	N	OFF	D	D	D	D	D	D	N	N	N	N
 90	RAHMAD DIANSAH	DT HANVAN 222	N	N	N	N	OFF	D	D	D	D	D	D	D	N	N	N	N	N	N	OFF	D	D	D	D	D	D	N	N	N	N	N
 91	BOY DEPRAYANDI	DT HANVAN 223	N	N	OFF	D	D	D	D	D	D	N	N	N	N	N	N	N	OFF	D	D	D	D	D	D	D	N	N	N	N	N	N
 92	GANDUNG HENDRIYAWAN	DT HANVAN 223	D	D	N	N	N	N	N	N	N	OFF	D	D	D	D	D	D	D	N	N	N	N	N	N	OFF	D	D	D	D	D	D
-93	EDO RIO OKTARA	DT HANVAN 224	N	N	N	N	N	OFF	D	D	D	D	D	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	I	D	N	N	N	N	N
-94	DIKA PRANATA	DT HANVAN 224	D	D	D	D	D	N	N	N	N	N	N	N	OFF	D	D	D	D	D	D	N	N	N	N	CR	CR	CR	CR	CR	CR	CR
+93	EDO RIO OKTARA	DT HANVAN 224(BREAKDOWN)	N	N	N	N	N	OFF	D	D	D	D	D	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	I	D	N	N	N	N	N
+94	DIKA PRANATA	DT HANVAN 224(BREAKDOWN)	D	D	D	D	D	N	N	N	N	N	N	N	OFF	D	D	D	D	D	D	N	N	N	N	CR	CR	CR	CR	CR	CR	CR
 95	BAYU SYAHPUTRA	DT HANVAN 225	D	D	D	D	D	D	D	N	N	N	N	N	N	OFF	D	D	D	D	D	D	N	N	N	N	N	N	N	OFF	D	D
 96	SAPRIADI	DT HANVAN 225	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	I	N	N	N	N	N	N	N	OFF	D	D	D	D	D	D	D	N	N
 97	SUPRIYADI	DT HANVAN 226	N	N	N	N	N	OFF	D	D	D	D	D	D	N	N	N	N	N	N	N	OFF	D	D	D	D	D	D	N	N	N	N
@@ -135,34 +135,34 @@ const dtRawData = `1	DIKI SAPUTRA	HANVAN XCMG 51	N	N	N	N	OFF	D	D	D	D	D	D	N	N	N	N
 129	ADI ANUGRAH	QUESTER 28 CWE 280	D	D	D	D	D	N	N	N	N	N	N	OFF	D	D	D	D	D	D	D	N	N	N	N	N	N	OFF	D	D	D	D
 130	RENKI WIGUNA	QUESTER 29 CWE 280	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	I	D	D	N	N	N	N	N	N	OFF	D	D	D	D	D	D	N	N
 131	DEDI SYAFRIADI	QUESTER 29 CWE 280	OFF	D	D	D	D	D	D	D	N	N	N	N	N	N	OFF	D	D	D	D	D	D	D	N	N	N	N	N	CR	CR	CR
-132	ZULFAHMI FERNANDO	QUESTER 30 CWE 280	CR	I	N	N	N	N	N	N	OFF	D	D	D	D	D	D	D	N	N	N	N	N	N	OFF	D	D	D	D	D	D	D
-133	PEJO DELPISA CANDRA	QUESTER 30 CWE 280	N	OFF	D	D	D	D	D	D	D	N	N	N	N	N	N	OFF	D	D	D	D	D	D	D	N	N	N	N	N	N	OFF
+132	ZULFAHMI FERNANDO	QUESTER 30 CWE 280(BREAKDOWN)	CR	I	N	N	N	N	N	N	OFF	D	D	D	D	D	D	D	N	N	N	N	N	N	OFF	D	D	D	D	D	D	D
+133	PEJO DELPISA CANDRA	QUESTER 30 CWE 280(BREAKDOWN)	N	OFF	D	D	D	D	D	D	D	N	N	N	N	N	N	OFF	D	D	D	D	D	D	D	N	N	N	N	N	N	OFF
 134	JUFRIL	QUESTER 31 CWE 280	CR	CR	CR	CR	CR	CR	CR	I	D	N	N	N	N	N	N	OFF	D	D	D	D	D	D	D	N	N	N	N	N	N	OFF
 135	DANIL MUSTAPA HARUN	QUESTER 31 CWE 280	D	D	N	N	N	N	N	N	OFF	D	D	D	D	D	D	D	N	N	N	N	N	N	CR	CR	CR	CR	CR	CR	CR	CR
-136	MANGARA TUA SIANTURI	QUESTER 32 CWE 280	N	N	N	OFF	D	D	D	D	D	D	D	N	N	N	N	N	N	OFF	D	D	D	D	D	D	N	N	N	N	N	N
-137	MUHAMMAD FAJRI AL MARSY	QUESTER 32 CWE 280	D	D	D	D	N	N	N	N	N	N	OFF	D	D	D	D	D	D	D	N	N	N	N	N	N	OFF	D	D	D	D	D
+136	MANGARA TUA SIANTURI	QUESTER 32 CWE 280(BREAKDOWN)	N	N	N	OFF	D	D	D	D	D	D	D	N	N	N	N	N	N	OFF	D	D	D	D	D	D	N	N	N	N	N	N
+137	MUHAMMAD FAJRI AL MARSY	QUESTER 32 CWE 280(BREAKDOWN)	D	D	D	D	N	N	N	N	N	N	OFF	D	D	D	D	D	D	D	N	N	N	N	N	N	OFF	D	D	D	D	D
 138	PIRDAUS	QUESTER 33 CWE 280	N	N	N	N	N	OFF	D	D	D	D	D	D	N	N	N	N	N	N	N	OFF	D	D	D	D	D	D	N	N	N	N
 139	DIDIK HERMAWAN	QUESTER 33 CWE 280	D	D	D	D	D	D	N	N	N	N	N	N	OFF	D	D	D	D	D	D	D	N	N	N	N	N	N	OFF	D	D	D
 140	DANIEL SYAFIKRI	QUESTER 34 CWE 280	N	N	N	N	N	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	I	D	D	D	D	D	D	N	N	N	N	N	N	OFF
 141	IKNU SETYAWAN	QUESTER 34 CWE 280	CR	CR	CR	CR	CR	I	D	D	D	N	N	N	N	OFF	D	D	D	N	N	N	N	N	N	OFF	D	D	D	D	D	D
 142	KEPRIANTO	QUESTER 35 CWE 280	I	D	D	D	D	D	D	D	N	N	N	N	N	N	OFF	D	D	D	D	D	D	D	N	N	N	N	N	N	OFF	D
 143	ALDI PRAJANATA	QUESTER 35 CWE 280	N	N	N	N	N	N	N	OFF	D	D	D	D	D	D	D	N	N	N	N	N	N	OFF	D	D	D	D	D	D	D	N
-144	NASRIANDI	QUESTER 37 CWE 280	N	N	N	N	N	N	OFF	D	D	D	D	D	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	D	D	D	D	D	N
-145	REGI ARMI VOLANDRA	QUESTER 37 CWE 280	CR	CR	CR	CR	CR	I	D	N	N	N	N	N	N	N	OFF	D	D	D	D	D	D	D	N	N	N	N	N	N	OFF	D
+144	NASRIANDI	QUESTER 37 CWE 280(BREAKDOWN)	N	N	N	N	N	N	OFF	D	D	D	D	D	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	D	D	D	D	D	N
+145	REGI ARMI VOLANDRA	QUESTER 37 CWE 280(BREAKDOWN)	CR	CR	CR	CR	CR	I	D	N	N	N	N	N	N	N	OFF	D	D	D	D	D	D	D	N	N	N	N	N	N	OFF	D
 146	TRI SUSANTO	QUESTER 38 CWE 280	N	N	OFF	D	D	D	D	D	D	D	N	N	N	N	N	N	OFF	D	D	D	D	D	D	D	N	N	N	N	N	N
 147	ALFI ZULFAROLI	QUESTER 38 CWE 280	D	D	D	N	N	N	N	N	N	OFF	D	D	D	D	D	D	D	N	N	N	N	N	N	OFF	D	D	D	D	CR	CR
 148	DEDI HENDRA	QUESTER 39 CWE 280	CR	CR	CR	CR	CR	CR	CR	I	D	D	D	D	D	D	N	N	N	N	N	N	OFF	D	D	D	D	D	D	N	N	N
 149	NANDO EKA PUTRA	QUESTER 39 CWE 280	N	N	N	N	OFF	D	D	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	I	D	N	N	N	N	N	N	OFF	D	D
 150	ROBY KURNIADO	QUESTER 41 CWE 280	N	N	N	N	OFF	D	D	D	D	D	D	D	N	N	N	N	N	N	OFF	D	D	D	D	D	D	D	CR	CR	CR	CR
 151	WIDI ASROFI	QUESTER 41 CWE 280	D	D	D	D	D	N	N	N	N	N	N	N	OFF	D	D	D	D	D	D	N	N	N	N	N	N	OFF	D	D	D	D
-152	MUHAMMAD NUR SOFYAN	QUESTER 44  CWE 280	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	I	D	D	D	D	D	D	D	D	D	N	N	N	N	N	N	N	OFF
-153	DIAN DAFIT	QUESTER 44  CWE 280	N	N	N	N	N	N	OFF	D	D	D	D	D	N	N	N	N	N	N	N	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR
-154	M. REJA	QUESTER 45  CWE 280	N	N	N	OFF	D	D	D	D	D	D	D	N	N	N	N	N	N	OFF	D	D	D	D	D	D	D	N	N	N	N	N
-155	ALTASER	QUESTER 45  CWE 280	D	D	D	D	N	N	N	N	N	N	OFF	D	D	D	D	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	I	D	D
+152	MUHAMMAD NUR SOFYAN	QUESTER 44(BREAKDOWN)  CWE 280	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	I	D	D	D	D	D	D	D	D	D	N	N	N	N	N	N	N	OFF
+153	DIAN DAFIT	QUESTER 44  CWE 280(BREAKDOWN)	N	N	N	N	N	N	OFF	D	D	D	D	D	N	N	N	N	N	N	N	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR
+154	M. REJA	QUESTER 45  CWE 280(BREAKDOWN)	N	N	N	OFF	D	D	D	D	D	D	D	N	N	N	N	N	N	OFF	D	D	D	D	D	D	D	N	N	N	N	N
+155	ALTASER	QUESTER 45  CWE 280(BREAKDOWN)	D	D	D	D	N	N	N	N	N	N	OFF	D	D	D	D	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	I	D	D
 156	PANDI ZIKRILLAH	QUESTER 46  CWE 280	CR	CR	CR	CR	CR	CR	CR	CR	CR	I	D	D	D	D	D	D	N	N	N	N	N	N	OFF	D	D	D	D	D	D	D
 157	RHADIUS PUTRA WIRA	QUESTER 46  CWE 280	D	D	D	D	D	D	N	N	N	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	I	D	N	N	N	N	N	N	OFF
-158	DICKY PRANATA HS	QUESTER 47  CWE 280	D	D	D	D	D	D	N	N	N	N	N	N	OFF	D	D	D	D	D	D	N	N	N	N	N	N	OFF	D	D	D	D
-159	ALIT PITOYO	QUESTER 47  CWE 280	N	N	N	N	N	OFF	D	D	D	D	D	D	N	N	N	N	N	N	OFF	D	D	D	D	D	D	D	N	N	N	N
+158	DICKY PRANATA HS	QUESTER 47  CWE 280(BREAKDOWN)	D	D	D	D	D	D	N	N	N	N	N	N	OFF	D	D	D	D	D	D	N	N	N	N	N	N	OFF	D	D	D	D
+159	ALIT PITOYO	QUESTER 47  CWE 280(BREAKDOWN)	N	N	N	N	N	OFF	D	D	D	D	D	D	N	N	N	N	N	N	OFF	D	D	D	D	D	D	D	N	N	N	N
 160	BENITA INDRA	QUESTER 07 CWE 370	D	D	D	D	D	N	N	N	N	N	N	OFF	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	I	D	D	D	D	D
 161	FAISAL	QUESTER 07 CWE 370	N	N	N	N	OFF	D	D	D	D	D	D	N	N	N	N	N	N	OFF	D	D	D	D	D	D	N	N	N	N	N	N
 162	ARGIANTO	QUESTER 17 CWE 370	D	D	D	N	N	N	N	N	N	N	OFF	D	D	D	D	D	D	D	N	N	N	N	N	N	OFF	D	D	CR	CR	CR
@@ -171,8 +171,8 @@ const dtRawData = `1	DIKI SAPUTRA	HANVAN XCMG 51	N	N	N	N	OFF	D	D	D	D	D	D	N	N	N	N
 165	FITRA RAMADHAN	QUESTER 18 CWE 370	N	N	N	N	N	N	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	I	D	D	D	N	N	N	N	N	N	OFF	D
 166	FERY ALDY YANSYA	QUESTER 19 CWE 370	D	N	N	N	N	N	N	OFF	D	D	D	D	D	D	D	N	N	N	N	N	N	OFF	D	D	D	D	D	D	D	CR
 167	IRWAN HIDAYAD	QUESTER 19 CWE 370	OFF	D	D	D	D	D	D	D	N	N	N	N	N	N	OFF	D	D	D	D	D	D	N	N	N	N	N	N	N	OFF	D
-168	WISNU ADI PARNATA	QUESTER 20 CWE 370	CR	CR	CR	CR	CR	CR	CR	CR	CR	I	D	D	D	D	D	D	D	D	N	N	N	N	OFF	D	D	D	D	D	D	D
-169	HENDI AFRIKA	QUESTER 20 CWE 370	N	N	OFF	D	D	D	D	D	D	D	N	N	N	N	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	I	N	N	N
+168	WISNU ADI PARNATA	QUESTER 20 CWE 370(BREAKDOWN)	CR	CR	CR	CR	CR	CR	CR	CR	CR	I	D	D	D	D	D	D	D	D	N	N	N	N	OFF	D	D	D	D	D	D	D
+169	HENDI AFRIKA	QUESTER 20 CWE 370(BREAKDOWN)	N	N	OFF	D	D	D	D	D	D	D	N	N	N	N	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	I	N	N	N
 170	ARDIANTON	QUESTER 21 CWE 370	D	D	D	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	I	D	D	N	N	N	N	N	N	N	OFF	D	D	D	D
 171	AHMAD CHAIRUL MUSTOPA	QUESTER 21 CWE 370	N	N	N	N	OFF	D	D	D	D	D	D	N	N	N	N	N	N	N	OFF	D	D	D	D	D	D	D	N	N	N	N
 172	MAIRIZALDI	QUESTER 22 CWE 370	D	D	D	D	D	D	D	D	N	N	N	N	N	OFF	D	D	D	D	D	D	N	N	N	N	CR	CR	CR	CR	CR	CR
@@ -241,10 +241,10 @@ const dtRawData = `1	DIKI SAPUTRA	HANVAN XCMG 51	N	N	N	N	OFF	D	D	D	D	D	D	N	N	N	N
 235	GAPIS SAGITA	DT 121 ORANGE	N	N	N	N	OFF	D	D	D	D	D	D	N	N	N	N	N	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	I	N
 236	RIFFANDI IHSAN	DT 122 ORANGE	D	D	D	D	D	D	D	N	N	N	N	N	N	OFF	D	D	D	D	D	D	D	N	N	N	N	N	N	OFF	D	D
 237	MUHAMMAD FAZAL KHAN	DT 122 ORANGE	N	N	N	N	N	N	OFF	D	D	D	D	D	D	D	N	N	N	N	N	N	OFF	D	D	D	D	D	D	D	N	N
-238	RIO PEBRIAN	DT 123 ORANGE	N	N	N	N	N	N	OFF	D	D	D	D	D	D	D	N	N	N	N	N	N	OFF	D	D	D	D	D	D	D	N	N
-239	BENNY SAPUTRA	DT 123 ORANGE	D	D	D	D	D	D	D	N	N	N	N	N	N	OFF	D	D	D	D	D	D	N	N	N	N	N	N	N	OFF	D	D
-240	BENI RAMADANI	DT HINO 01 (68)	N	N	N	N	OFF	D	D	D	D	D	D	N	N	N	N	N	N	N	OFF	D	D	D	D	D	D	D	N	N	N	N
-241	APRIYADI	DT HINO 01 (68)	D	D	D	D	D	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	I	D	N	N	N	N	N	N	OFF	D	D	D	D
+238	RIO PEBRIAN	DT 123 ORANGE(BREAKDOWN)	N	N	N	N	N	N	OFF	D	D	D	D	D	D	D	N	N	N	N	N	N	OFF	D	D	D	D	D	D	D	N	N
+239	BENNY SAPUTRA	DT 123 ORANGE(BREAKDOWN)	D	D	D	D	D	D	D	N	N	N	N	N	N	OFF	D	D	D	D	D	D	N	N	N	N	N	N	N	OFF	D	D
+240	BENI RAMADANI	DT HINO 01 (68)(BREAKDOWN)	N	N	N	N	OFF	D	D	D	D	D	D	N	N	N	N	N	N	N	OFF	D	D	D	D	D	D	D	N	N	N	N
+241	APRIYADI	DT HINO 01 (68)(BREAKDOWN)	D	D	D	D	D	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	I	D	N	N	N	N	N	N	OFF	D	D	D	D
 242	HAMID	DT HINO 02 (69)	N	N	N	N	N	N	OFF	D	D	D	D	D	D	D	N	N	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	I	N
 243	RAHMAT PRIADI	DT HINO 02 (69)	OFF	D	D	D	D	D	D	D	N	N	N	N	N	N	OFF	D	D	D	D	D	D	D	N	N	N	N	N	N	N	OFF	D
 244	SUWANDI HADI S	DT HINO 03 (70)	D	D	D	D	D	D	D	N	N	N	N	N	N	N	OFF	D	D	D	D	D	D	D	N	N	N	N	N	N	N	OFF	D
@@ -255,8 +255,8 @@ const dtRawData = `1	DIKI SAPUTRA	HANVAN XCMG 51	N	N	N	N	OFF	D	D	D	D	D	D	N	N	N	N
 249	MUKRI INDRA SAPUTRA	DT FIGHTER 73	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	I	N	N	N	N	N	N	N	OFF	D	D	D	D	D	D	D	D	N
 250	RISKI RAMADANI	DT FIGHTER 74	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	I	D	D	D	D	N	N	N	N	N	OFF	D	D	D	D	D	D	D	D
 251	ARIF SYAHFRUDIN	DT FIGHTER 74	N	N	N	N	OFF	D	D	D	D	N	N	N	N	N	N	OFF	D	D	D	D	D	D	N	N	N	N	N	N	CR	CR
-252	DONES MARTHA ZULPERLIN	DT FIGHTER 75	N	N	N	OFF	D	D	D	D	D	D	D	N	N	N	N	N	N	OFF	D	D	D	D	D	D	N	N	N	N	N	N
-253	HADI KESUMA	DT FIGHTER 75	D	D	D	N	N	N	N	N	N	N	OFF	D	D	D	D	D	D	D	N	N	N	N	N	N	OFF	D	D	D	D	D
+252	DONES MARTHA ZULPERLIN	DT FIGHTER 75(BREAKDOWN)	N	N	N	OFF	D	D	D	D	D	D	D	N	N	N	N	N	N	OFF	D	D	D	D	D	D	N	N	N	N	N	N
+253	HADI KESUMA	DT FIGHTER 75(BREAKDOWN)	D	D	D	N	N	N	N	N	N	N	OFF	D	D	D	D	D	D	D	N	N	N	N	N	N	OFF	D	D	D	D	D
 254	R. MAMBI	DRIVER DT SPARE	D	D	N	N	N	N	N	N	N	OFF	D	D	D	D	D	D	N	N	N	N	N	N	N	CR	CR	CR	CR	CR	CR	CR
 255	NOPRIANDI	DRIVER DT SPARE	D	D	D	D	N	N	N	N	N	N	N	OFF	D	D	D	D	D	D	N	N	N	N	N	N	OFF	D	D	D	D	CR
 256	GENTA AULIA GUNTUR	DRIVER DT SPARE	D	D	D	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	I	D	D	N	N	N	N	N	N	N	OFF	D	D	D	D
@@ -337,8 +337,8 @@ const excavatorRawData = `313	ANDIKA PRADIFTA	EXCAVATOR 402	CR	CR	CR	CR	CR	CR	CR
 330	ALKADIF ISMAIL	EXCAVATOR 411	N	N	N	N	N	OFF	D	D	D	D	D	N	N	N	N	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	D	N	N
 331	ANDES	EXCAVATOR 412	D	D	D	N	N	N	N	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	D	D	N	N	N	N	OFF	D	D	D	D
 332	EDY WARDIAN	EXCAVATOR 412	N	N	N	OFF	D	D	D	D	D	D	D	N	N	N	N	N	N	N	OFF	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR
-333	FAHROZI SAPUTRA	EXCAVATOR 414	OFF	D	D	D	D	D	N	N	N	N	N	N	N	OFF	D	D	D	D	D	D	N	N	N	N	N	N	OFF	D	D	D
-334	DONNI OKTANDI	EXCAVATOR 414	D	N	N	N	N	N	OFF	D	D	D	D	D	D	N	N	N	N	N	N	OFF	D	D	D	D	D	D	N	N	N	N
+333	FAHROZI SAPUTRA	EXCAVATOR 414(BREAKDOWN)	OFF	D	D	D	D	D	N	N	N	N	N	N	N	OFF	D	D	D	D	D	D	N	N	N	N	N	N	OFF	D	D	D
+334	DONNI OKTANDI	EXCAVATOR 414(BREAKDOWN)	D	N	N	N	N	N	OFF	D	D	D	D	D	D	N	N	N	N	N	N	OFF	D	D	D	D	D	D	N	N	N	N
 335	EMDA MARYOGI	EXCAVATOR 416	N	N	OFF	D	D	D	D	D	D	D	N	N	N	N	N	OFF	D	D	D	D	D	D	CR	CR	CR	CR	CR	CR	CR	CR
 336	ARIS ADINATA	EXCAVATOR 416	D	D	D	N	N	N	N	N	N	OFF	D	D	D	D	D	N	N	N	N	N	N	N	OFF	D	D	D	D	D	D	D
 337	JEFRINALDI	EXCAVATOR 425	N	N	N	N	OFF	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	N	N	OFF	D	D	D	D	D	N	N	N	N	N
@@ -378,13 +378,13 @@ const excavatorRawData = `313	ANDIKA PRADIFTA	EXCAVATOR 402	CR	CR	CR	CR	CR	CR	CR
 371	BAMBANG SUTRISNO	EXCAVATOR SPARE	CR	CR	CR	CR	CR	CR	CR	D	D	D	D	D	D	D	N	N	N	N	N	N	OFF	D	D	D	D	D	D	N	N	N
 372	SAHAT SIREGAR	EXCAVATOR SPARE	D	D	D	D	D	D	N	N	N	N	N	N	N	OFF	D	D	D	D	D	D	D	N	N	N	N	N	N	OFF	D	D
 373	JON HENRI HALOHO	EXCAVATOR SPARE	N	OFF	D	D	D	D	D	D	N	N	N	N	N	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	D	D	D	D	D	D
-374	MUHAMMAD IQBAL.M	EXCAVATOR SPARE	OFF	D	D	D	D	D	N	N	N	N	N	N	N	OFF	D	D	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	D	D
+374	MUHAMMAD IQBAL.M	EXCAVATOR SPARE	OFF	D	D	D	D	D	N	N	N	N	N	N	N	OFF	D	D	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	D	D
 375	SANHERIB SITOMPUL	EXCAVATOR SPARE	N	N	N	N	OFF	D	D	D	D	D	D	D	N	N	N	N	N	N	OFF	D	D	D	D	D	D	N	N	N	N	N
 376	SURIYANTO	EXCAVATOR SPARE	N	N	N	N	N	OFF	D	D	D	D	D	D	D	N	N	N	N	N	N	OFF	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR
 377	AMINULLAH HASIBUAN	EXCAVATOR SPARE	N	N	N	N	N	N	OFF	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	D	D	D	D	D	D	D	N	N	N	N`;
 
-const dozerRawData = `378	ROKI HERMAWAN	DZ KOMATSU 01	N	N	N	N	N	OFF	D	D	D	D	D	D	D	N	N	N	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	D	D	N
-379	AREA OKTA MIRANDA	DZ KOMATSU 01	D	D	D	D	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	D	D	D	D	D	D	D	N	N	N	N	N	N	OFF
+const dozerRawData = `378	ROKI HERMAWAN	DZ KOMATSU 01(BREAKDOWN)	N	N	N	N	N	OFF	D	D	D	D	D	D	D	N	N	N	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	D	D	N
+379	AREA OKTA MIRANDA	DZ KOMATSU 01(BREAKDOWN)	D	D	D	D	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	D	D	D	D	D	D	D	N	N	N	N	N	N	OFF
 380	SYAHRUL SIGALINGGING	DZ KOMATSU 03	D	D	D	D	D	D	N	N	N	N	N	N	OFF	D	D	D	D	D	D	N	N	N	N	N	N	OFF	D	D	D	D
 381	GOGON S	DZ KOMATSU 03	N	N	N	N	N	OFF	D	D	D	D	D	D	N	N	N	N	N	N	OFF	D	D	D	D	D	D	D	N	N	N	N
 382	YUDI YANTO	DZ KOMATSU 08	OFF	D	D	D	D	D	D	N	N	N	N	N	N	OFF	D	D	D	D	D	D	D	D	N	N	N	N	N	OFF	D	D
@@ -415,8 +415,8 @@ const dozerRawData = `378	ROKI HERMAWAN	DZ KOMATSU 01	N	N	N	N	N	OFF	D	D	D	D	D	D	
 407	YOGA ASTIKA	DZ LIU GONG 03	N	N	OFF	D	D	D	D	D	D	N	N	N	N	N	N	OFF	D	D	D	D	D	D	D	D	N	N	N	N	N	N
 408	DEDI KANDRA	DZ SHANTUY 07	N	OFF	D	D	D	D	D	D	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	CR	D	N	N	N	N	N	N	OFF	D	D
 409	ADI PRAWIBOWO	DZ SHANTUY 07	D	N	N	N	N	N	N	OFF	D	D	D	D	D	D	D	N	N	N	N	N	N	OFF	D	D	D	D	D	D	N	N
-410	KHOIRUL SALEH LUBIS	DZ SHANTUI 26	D	D	D	D	D	N	N	N	N	N	OFF	D	D	D	D	D	D	D	N	N	N	N	N	N	OFF	D	CR	CR	CR	CR
-411	ADRIL ANDONI	DZ SHANTUI 26	N	N	N	N	OFF	D	D	D	D	D	D	N	N	N	N	N	N	OFF	D	D	D	D	D	D	D	N	N	N	N	N
+410	KHOIRUL SALEH LUBIS	DZ SHANTUI 26(BREAKDOWN)	D	D	D	D	D	N	N	N	N	N	OFF	D	D	D	D	D	D	D	N	N	N	N	N	N	OFF	D	CR	CR	CR	CR
+411	ADRIL ANDONI	DZ SHANTUI 26(BREAKDOWN)	N	N	N	N	OFF	D	D	D	D	D	D	N	N	N	N	N	N	OFF	D	D	D	D	D	D	D	N	N	N	N	N
 412	DEDI HENDRA	SPARE	D	D	D	D	D	N	N	N	N	N	N	OFF	D	D	D	D	D	D	D	N	N	N	N	N	N	OFF	D	D	D	D
 413	JERRY YAN MACHER	SPARE	CR	CR	CR	CR	CR	CR	CR	D	D	D	D	D	D	D	N	N	N	N	N	N	OFF	D	D	D	D	D	N	N	N	N
 414	RAHMAN AFRIADI	SPARE	D	D	D	D	D	D	D	N	N	N	N	OFF	D	D	D	D	D	D	N	N	N	N	N	N	OFF	D	D	D	D	D
@@ -449,7 +449,9 @@ const parseManpowerData = (dataString, equipmentType) => {
 
             const id = parseInt(parts[0], 10);
             const name = parts[1].trim();
-            const unit = parts[2].trim();
+            const rawUnit = parts[2].trim();
+            const isBreakdown = rawUnit.toUpperCase().includes('(BREAKDOWN)');
+            const unit = rawUnit.replace(/\(BREAKDOWN\)/ig, '').trim();
             const dailyStatuses = parts.slice(3).map(s => s.trim());
             
             if (isNaN(id) || !name || !unit) {
@@ -457,7 +459,7 @@ const parseManpowerData = (dataString, equipmentType) => {
                 return;
             }
 
-            drivers.push({ id, name, unit, dailyStatuses, type: equipmentType });
+            drivers.push({ id, name, unit, isBreakdown, dailyStatuses, type: equipmentType });
 
         } catch (error) {
             console.error(`Failed to parse line ${index + 1}: "${line}"`, error);
@@ -734,10 +736,11 @@ const App = () => {
             .map(drivers => {
                 const unitName = drivers[0].unit;
                 const upperUnitName = unitName.toUpperCase();
+                const isBreakdown = drivers[0].isBreakdown;
                 let type = 'dt';
                 if (upperUnitName.includes('EXCAVATOR')) type = 'excavator';
                 else if (upperUnitName.includes('DOZER') || upperUnitName.includes('DZ')) type = 'dozer';
-                return { name: unitName, drivers, type };
+                return { name: unitName, drivers, type, isBreakdown };
             });
         
         setAllData({ drivers: parsedDrivers, units: unitsArray, spareDrivers: currentSpareDrivers });
@@ -798,51 +801,69 @@ const App = () => {
         const onRooster = [];
         const onOff = [];
         const onInduction = [];
-        
+        const breakdownUnitsDay = [];
+        const breakdownUnitsNight = [];
+
         drivers.forEach(driver => {
             const status = driver.dailyStatuses[dayIndex];
-            switch (status) {
-                case 'D':
-                    onDutyDay.push({ driver, shift: 'Day' });
-                    break;
-                case 'N':
-                    onDutyNight.push({ driver, shift: 'Night' });
-                    break;
-                case 'CR':
-                    onRooster.push({ driver });
-                    break;
-                case 'OFF':
-                    onOff.push({ driver });
-                    break;
-                case 'I':
-                    onInduction.push({ driver });
-                    break;
+
+            // An operator is on duty if their status is 'D' or 'N', regardless of unit breakdown status.
+            // They are considered available personnel for the shift.
+            if (status === 'D') {
+                onDutyDay.push({ driver, shift: 'Day' });
+            } else if (status === 'N') {
+                onDutyNight.push({ driver, shift: 'Night' });
+            } else if (status === 'CR') {
+                onRooster.push({ driver });
+            } else if (status === 'OFF') {
+                onOff.push({ driver });
+            } else if (status === 'I') {
+                onInduction.push({ driver });
             }
         });
 
         const emptyUnitsDay = [];
         const emptyUnitsNight = [];
-        const processedUnitsDay = new Set();
-        const processedUnitsNight = new Set();
 
         units.forEach(unit => {
+            if (unit.isBreakdown) {
+                const dayDriver = unit.drivers.find(d => d.dailyStatuses[dayIndex] === 'D');
+                const nightDriver = unit.drivers.find(d => d.dailyStatuses[dayIndex] === 'N');
+                breakdownUnitsDay.push({ unitName: unit.name, driver: dayDriver || null, shift: 'Day' });
+                breakdownUnitsNight.push({ unitName: unit.name, driver: nightDriver || null, shift: 'Night' });
+                return;
+            }
+
             const isMannedDay = unit.drivers.some(d => d.dailyStatuses[dayIndex] === 'D');
             const isMannedNight = unit.drivers.some(d => d.dailyStatuses[dayIndex] === 'N');
 
-            if (!isMannedDay && !processedUnitsDay.has(unit.name)) {
+            if (!isMannedDay) {
                 emptyUnitsDay.push({ unitName: unit.name, shift: 'Day' });
-                processedUnitsDay.add(unit.name);
             }
 
-            if (!isMannedNight && !processedUnitsNight.has(unit.name)) {
+            if (!isMannedNight) {
                 emptyUnitsNight.push({ unitName: unit.name, shift: 'Night' });
-                processedUnitsNight.add(unit.name);
             }
         });
         
         const totalOnRooster = drivers.filter(d => d.dailyStatuses[dayIndex] === 'CR').length;
-        const availableSparesDay = spareDrivers.filter(d => d.dailyStatuses[dayIndex] === 'D').length;
-        const availableSparesNight = spareDrivers.filter(d => d.dailyStatuses[dayIndex] === 'N').length;
+        
+        const regularSparesDay = spareDrivers.filter(d => d.dailyStatuses[dayIndex] === 'D').length;
+        const regularSparesNight = spareDrivers.filter(d => d.dailyStatuses[dayIndex] === 'N').length;
+
+        const breakdownUnitDriversDay = units
+            .filter(u => u.isBreakdown)
+            .flatMap(u => u.drivers)
+            .filter(d => d.dailyStatuses[dayIndex] === 'D').length;
+            
+        const breakdownUnitDriversNight = units
+            .filter(u => u.isBreakdown)
+            .flatMap(u => u.drivers)
+            .filter(d => d.dailyStatuses[dayIndex] === 'N').length;
+
+        const availableSparesDay = regularSparesDay + breakdownUnitDriversDay;
+        const availableSparesNight = regularSparesNight + breakdownUnitDriversNight;
+
         const equipmentLabel = activeEquipment === 'dt' ? 'DT' : (activeEquipment.charAt(0).toUpperCase() + activeEquipment.slice(1));
 
         return {
@@ -852,7 +873,8 @@ const App = () => {
                 onRooster: onRooster.map(item => ({...item, shift: 'Day'})),
                 onOff: onOff.map(item => ({...item, shift: 'Day'})),
                 onInduction: onInduction.map(item => ({...item, shift: 'Day'})),
-                stats: { onDutyCount: onDutyDay.length, emptyCount: emptyUnitsDay.length, roosterCount: totalOnRooster, availableSpares: availableSparesDay, equipmentLabel }
+                breakdownUnits: breakdownUnitsDay,
+                stats: { onDutyCount: onDutyDay.length, emptyCount: emptyUnitsDay.length, roosterCount: totalOnRooster, availableSpares: availableSparesDay, breakdownCount: breakdownUnitsDay.length, equipmentLabel }
            },
            night: {
                 onDuty: onDutyNight, 
@@ -860,7 +882,8 @@ const App = () => {
                 onRooster: onRooster.map(item => ({...item, shift: 'Night'})),
                 onOff: onOff.map(item => ({...item, shift: 'Night'})),
                 onInduction: onInduction.map(item => ({...item, shift: 'Night'})),
-                stats: { onDutyCount: onDutyNight.length, emptyCount: emptyUnitsNight.length, roosterCount: totalOnRooster, availableSpares: availableSparesNight, equipmentLabel }
+                breakdownUnits: breakdownUnitsNight,
+                stats: { onDutyCount: onDutyNight.length, emptyCount: emptyUnitsNight.length, roosterCount: totalOnRooster, availableSpares: availableSparesNight, breakdownCount: breakdownUnitsNight.length, equipmentLabel }
            }
         };
     }, [selectedDate, drivers, units, spareDrivers, activeEquipment]);
@@ -894,6 +917,7 @@ const App = () => {
              switch(tabKey) {
                 case 'on_duty': return currentShiftData.onDuty;
                 case 'empty_units': return currentShiftData.emptyUnits;
+                case 'breakdown': return currentShiftData.breakdownUnits;
                 case 'rooster': return currentShiftData.onRooster;
                 case 'off': return currentShiftData.onOff;
                 case 'induction': return currentShiftData.onInduction;
@@ -907,11 +931,16 @@ const App = () => {
             if (!searchQuery) return true;
             const query = searchQuery.toLowerCase();
 
-            if (item.driver) { // For lists with drivers
+            if (activeDetailTab === 'breakdown') {
+                const unitMatch = item.unitName.toLowerCase().includes(query);
+                const driverMatch = item.driver ? item.driver.name.toLowerCase().includes(query) : false;
+                return unitMatch || driverMatch;
+            }
+            if (item.driver) {
                 return item.driver.name.toLowerCase().includes(query) || 
                        item.driver.unit.toLowerCase().includes(query);
             }
-            if (item.unitName) { // For empty units list
+            if (item.unitName) {
                 return item.unitName.toLowerCase().includes(query);
             }
             return false;
@@ -923,6 +952,53 @@ const App = () => {
                 : 'No data available for this category.';
             return html`<div className="text-center py-10 text-slate-500 dark:text-slate-400">${message}</div>`;
         }
+        
+        const renderBreakdownUnits = (listData) => html`
+            <div className="overflow-x-auto hidden sm:block">
+                <table className="min-w-full divide-y divide-slate-200 dark:divide-slate-700">
+                    ${tableHeader(['Unit', 'Operator Name', 'Shift'])}
+                    <tbody className="bg-white dark:bg-slate-800 divide-y divide-slate-200 dark:divide-slate-700">
+                        ${listData.map((item, index) => {
+                            if (!item) return null;
+                            const noteKey = `${selectedDate.toISOString().split('T')[0]}-${item.unitName}`;
+                            const hasNote = notes[noteKey];
+                            return html`
+                            <tr key=${`${item.unitName}-${index}`} onClick=${() => handleOpenModal('unit', item)} className="hover:bg-slate-50 dark:hover:bg-slate-700/50 cursor-pointer">
+                                <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 dark:text-slate-100">
+                                    <div className="flex items-center space-x-2">
+                                        <span>${item.unitName}</span>
+                                        ${hasNote && html`<${NoteIcon} className="w-4 h-4 text-indigo-400" />`}
+                                    </div>
+                                </td>
+                                <td className="px-6 py-4 whitespace-nowrap text-sm text-slate-500 dark:text-slate-300">${item.driver ? item.driver.name : html`<span className="italic text-slate-400">No Operator</span>`}</td>
+                                <td className="px-6 py-4 whitespace-nowrap text-sm text-slate-500 dark:text-slate-300">${item.shift}</td>
+                            </tr>
+                        `})}
+                    </tbody>
+                </table>
+            </div>
+            <div className="space-y-4 sm:hidden">
+                ${listData.map((item, index) => {
+                    if (!item) return null;
+                    const noteKey = `${selectedDate.toISOString().split('T')[0]}-${item.unitName}`;
+                    const hasNote = notes[noteKey];
+                    return html`
+                        <div key=${`${item.unitName}-${index}`} onClick=${() => handleOpenModal('unit', item)} className="bg-white dark:bg-slate-800 rounded-lg p-4 shadow-md cursor-pointer">
+                           <div className="flex justify-between items-start">
+                                <div className="flex flex-col">
+                                    <div className="flex items-center space-x-2 mb-1">
+                                        <span className="font-bold text-slate-800 dark:text-slate-100">${item.unitName}</span>
+                                        ${hasNote && html`<${NoteIcon} className="w-4 h-4 text-indigo-400" />`}
+                                    </div>
+                                    <span className="text-sm text-slate-600 dark:text-slate-300">${item.driver ? item.driver.name : html`<span className="italic text-slate-400">No Operator</span>`}</span>
+                                </div>
+                                <span className="text-xs font-semibold text-slate-500 dark:text-slate-400 bg-slate-100 dark:bg-slate-700 px-2 py-1 rounded">${item.shift} Shift</span>
+                           </div>
+                        </div>
+                    `
+                })}
+            </div>
+        `;
 
         const renderEmptyUnits = (listData) => html`
             <div className="overflow-x-auto hidden sm:block">
@@ -1013,6 +1089,7 @@ const App = () => {
         const lists = {
             'on_duty': renderDriverStatus(filteredData),
             'empty_units': renderEmptyUnits(filteredData),
+            'breakdown': renderBreakdownUnits(filteredData),
             'rooster': renderDriverStatus(filteredData, true),
             'off': renderDriverStatus(filteredData, true),
             'induction': renderDriverStatus(filteredData, true),
@@ -1032,6 +1109,7 @@ const App = () => {
     const detailTabs = [
         { key: 'on_duty', label: 'On Duty' },
         { key: 'empty_units', label: `${dailyData?.day.stats.equipmentLabel || 'Unit'} Kosong` },
+        { key: 'breakdown', label: 'Unit Breakdown' },
         { key: 'rooster', label: 'Cuti Rooster' },
         { key: 'off', label: 'OFF' },
         { key: 'induction', label: 'Induksi' },
@@ -1041,13 +1119,13 @@ const App = () => {
 
     const onDutyIcon = html`<svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth=${2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.653-.284-1.255-.758-1.685M3 12a9 9 0 0118 0v2c0 .653-.284 1.255-.758 1.685M3 12a9 9 0 0118 0-9 9 0 01-18 0z" /></svg>`;
     const emptyIcon = html`<svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth=${2} d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>`;
-    const roosterIcon = html`<svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth=${2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>`;
+    const breakdownIcon = html`<svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" /></svg>`;
     const spareIcon = html`<svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth=${2} d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M15 21v-1a6 6 0 00-5.176-5.97M15 21h6m-6-1a6 6 0 00-9-5.197M15 21h-6a6 6 0 00-6-6v-1a6 6 0 0112 0v1zm0 0v-1a6 6 0 00-5.176-5.97m5.176 5.97A6 6 0 0121 15v1h-6m-6-1a6 6 0 016-6v-1a6 6 0 00-9 5.197m9-5.197a4 4 0 110-5.292" /></svg>`;
 
     const dashboardCards = [
         { title: "On Duty", value: currentStats?.onDutyCount || 0, icon: onDutyIcon, color: "bg-teal-500" },
         { title: `${currentStats?.equipmentLabel || 'Unit'} Kosong`, value: currentStats?.emptyCount || 0, icon: emptyIcon, color: "bg-red-500" },
-        { title: "Operator Cuti", value: currentStats?.roosterCount || 0, icon: roosterIcon, color: "bg-blue-500" },
+        { title: "Unit Breakdown", value: currentStats?.breakdownCount || 0, icon: breakdownIcon, color: "bg-orange-500" },
         { title: "Operator Spare", value: currentStats?.availableSpares || 0, icon: spareIcon, color: "bg-green-500" },
     ];
 
