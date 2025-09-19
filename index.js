@@ -469,7 +469,7 @@ const parseManpowerData = (dataString, equipmentType) => {
 };
 
 
-// --- Calendar Helpers ---
+// --- Kaleder Helpers ---
 const getDaysInMonth = (year, month) => {
     return new Date(year, month + 1, 0).getDate();
 };
@@ -567,9 +567,8 @@ const BottomNavBar = ({ activeEquipment, onSelectEquipment }) => {
 }
 
 const Calendar = ({ selectedDate, setSelectedDate, daysWithNotes }) => {
-    // For this app, we are locked to September 2024 as per the data
     const displayYear = 2025;
-    const displayMonth = 8; // September is month 8 (0-indexed)
+    const displayMonth = 8; 
 
     const monthName = new Date(displayYear, displayMonth).toLocaleString('default', { month: 'long' });
     const daysInMonth = getDaysInMonth(displayYear, displayMonth);
@@ -698,12 +697,16 @@ const App = () => {
     const [allData, setAllData] = useState({ drivers: [], units: [], spareDrivers: [] });
     
     const getInitialDate = () => {
-        const today = new Date();
-        // Default to today if it's Sep 2024, otherwise Sep 1, 2024
-        if (today.getFullYear() === 2024 && today.getMonth() === 8) { // September is month 8
-            return today;
+        const jakartaDate = new Date(new Date().toLocaleString('en-US', { timeZone: 'Asia/Jakarta' }));
+
+        const dataYear = 2025;
+        const dataMonth = 8; 
+
+        if (jakartaDate.getFullYear() === dataYear && jakartaDate.getMonth() === dataMonth) {
+            return jakartaDate;
         }
-        return new Date(2024, 8, 1);
+
+        return new Date(dataYear, dataMonth, 1);
     };
     const [selectedDate, setSelectedDate] = useState(getInitialDate());
 
@@ -774,7 +777,7 @@ const App = () => {
             if (noteText.trim()) {
                 newNotes[noteKey] = noteText.trim();
             } else {
-                delete newNotes[noteKey]; // Remove note if empty
+                delete newNotes[noteKey]; 
             }
             return newNotes;
         });
@@ -807,8 +810,6 @@ const App = () => {
         drivers.forEach(driver => {
             const status = driver.dailyStatuses[dayIndex];
 
-            // An operator is on duty if their status is 'D' or 'N', regardless of unit breakdown status.
-            // They are considered available personnel for the shift.
             if (status === 'D') {
                 onDutyDay.push({ driver, shift: 'Day' });
             } else if (status === 'N') {
@@ -1221,7 +1222,6 @@ const App = () => {
     `;
 };
 
-// --- Application Entry Point ---
 const rootElement = document.getElementById('root');
 const root = ReactDOM.createRoot(rootElement);
 root.render(html`
