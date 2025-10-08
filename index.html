@@ -1,33 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Manpower & Equipment Dashboard</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
-      tailwind.config = {
-        darkMode: 'class',
-        theme: {
-          extend: {
-            fontFamily: {
-              sans: ['Inter', 'sans-serif'],
-            },
-          },
-        },
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'day': '#4ade80',     // green-400
+            'night': '#3b82f6',   // blue-500
+            'off': '#9ca3af',     // gray-400
+            'cr': '#f97316',      // orange-500
+            'i': '#facc15',       // yellow-400
+            'other': '#6b7280',   // gray-500
+            'absent': '#ef4444',  // red-500
+          }
+        }
       }
+    }
     </script>
-    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
-    <!-- Load React, ReactDOM, and htm from CDN -->
-    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
-    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
-    <script src="https://unpkg.com/htm@3/dist/htm.umd.js"></script>
-  <link rel="stylesheet" href="/index.css">
+    <script src="https://unpkg.com/vue@3"></script>
+    <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.23/jspdf.plugin.autotable.min.js"></script>
+    <style>
+        /* Simple fade-in animation */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .animate-fade-in {
+            animation: fadeIn 0.5s ease-out forwards;
+        }
+        #app {
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+    </style>
+<link rel="stylesheet" href="/index.css">
 </head>
-  <body class="bg-slate-100 dark:bg-slate-900">
-    <div id="root"></div>
-    <script src="index.js"></script>
-  <script type="module" src="index.js"></script>
+<body class="bg-gray-100 dark:bg-gray-900">
+    <div id="app"></div>
+    <script defer src="index.js"></script>
+<script type="module" src="/index.tsx"></script>
 </body>
-</htmlhtml>
+</html>
